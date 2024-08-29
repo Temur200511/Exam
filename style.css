@@ -25,6 +25,10 @@
   line-height: 28px;
   letter-spacing: 0px;
 }
+.background .container a:hover {
+  color: blue;
+  background-color: lightskyblue;
+}
 .background .container li {
   list-style: none;
 }
@@ -175,7 +179,11 @@
 .background_2 .container .logo_icon {
   padding-left: 145px;
 }
-.background_2 .rec_line {
+.background_2 .container .logo_se {
+  padding-left: 5px;
+}
+
+.rec_line {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -201,4 +209,136 @@
 .background_3 .container {
   max-width: 1110px;
   margin: auto;
+}
+.background_3 .container .clients {
+  padding-top: 140px;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.background_3 .container .logos {
+  padding-top: 70px;
+  padding-right: 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding-bottom: 150px;
+}
+
+.background_4 {
+  position: relative;
+  background-color: rgb(246, 126, 126);
+}
+.background_4 .container {
+  max-width: 1110px;
+  margin: auto;
+}
+.background_4 .container .ready {
+  color: rgb(1, 47, 52);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  padding-top: 79px;
+  padding-bottom: 79px;
+}
+.background_4 .container .contact {
+  background-color: rgb(246, 126, 126);
+  border: 2px solid rgb(1, 47, 52);
+  border-radius: 24px;
+  padding: 10px 33px;
+  color: rgb(1, 47, 52);
+}
+.background_4 .container .red_back {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 260px;
+}
+.background_4 .container a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.background_4 .container a:hover {
+  color: blueviolet;
+  background-color: aqua;
+}
+
+.background_5 {
+  background-color: rgb(0, 37, 41);
+}
+.background_5 .container {
+  max-width: 1110px;
+  margin: auto;
+}
+.background_5 .container .last_r {
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 48px;
+}
+.background_5 .container .px_15 {
+  font-family: "Livvic", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+.background_5 .container a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.background_5 .container a:hover {
+  color: blue;
+}
+.background_5 .container .about {
+  padding-left: 40px;
+}
+.background_5 .container .face {
+  padding-left: 150px;
+  padding-right: 16px;
+}
+.background_5 .container .pin {
+  padding-right: 16px;
+}
+.background_5 .container .copy {
+  padding-top: 50px;
+}
+@media (max-width: 1153px) {
+  .background_5 .container header {
+    gap: 100px;
+  }
+  .background_5 .container .pic {
+    width: 200px;
+  }
+  .background_5 .container .jakarta {
+    width: 120px;
+  }
+  .background_5 .container .face {
+    padding-left: 100px;
+    padding-right: 10px;
+  }
+  .background_5 .container .workers {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 140px;
+  }
+  .background_5 .container .last_r {
+    gap: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
